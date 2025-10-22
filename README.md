@@ -90,7 +90,7 @@ Perfect for practicing **React**, **Next.js**, **TypeScript**, **Tailwind CSS**,
 
 ## 👨‍💻 Author
 
-**Developed by:** [Hami Parsa](https://github.com/hamiparsa)  
+**Developed by:** [Niku Namada](https://github.com/honestdev125)  
 💬 Front-End Developer | Passionate about modern design, motion, and e-commerce UI  
 
 ---
