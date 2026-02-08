@@ -6,6 +6,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useSwipeable } from "react-swipeable";
 import { useCartStore } from "@/store/productStore";
 import Link from "next/link";
+import { products } from "@/data/products"; 
+
+export async function generateStaticParams() {
+  return products.map((product) => ({
+    id: product.id.toString(), // Next.js expects the value to be a string
+  }));
+}
 
 interface Product {
   id: number;
